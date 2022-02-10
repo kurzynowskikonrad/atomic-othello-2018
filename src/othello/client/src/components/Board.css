@@ -1,0 +1,13 @@
+.Board {
+  display: flex;
+  flex-direction: column;
+  width: 525px;
+  height: 525px;
+}
+
+@media (min-width: 1400px) and (min-height: 1100px) {
+  .Board {
+    width: 700px;
+    height: 700px;
+  }
+}

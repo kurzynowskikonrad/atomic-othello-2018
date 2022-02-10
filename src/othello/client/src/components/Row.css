@@ -1,0 +1,12 @@
+.Row {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.RowContainer {
+  height: 75px;
+  width: 600px;
+  display: flex;
+}

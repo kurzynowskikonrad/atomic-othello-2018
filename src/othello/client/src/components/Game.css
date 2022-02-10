@@ -1,0 +1,33 @@
+.Game {
+  background: #222;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  min-width: 1285px;
+  align-items: center;
+}
+
+.Game-title-area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0 60px;
+  z-index: 1000;
+  background: #222;
+  flex-shrink: 0;
+}
+
+.Game-logo {
+  width: 90%;
+  max-width: 400px;
+}
+
+.Game-content-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+}

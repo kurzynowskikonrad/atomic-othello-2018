@@ -1,0 +1,13 @@
+.PlayerOneSidebar {
+  text-align: left;
+  padding: 0 40px 0 40px;
+  align-items: flex-end;
+}
+
+.PlayerOneSidebar .connected {
+  color: #F0595C;
+}
+
+.PlayerOneSidebar .Spinner > div {
+  background-color: #F0595C;
+}

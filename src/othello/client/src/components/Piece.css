@@ -1,0 +1,34 @@
+.Piece {
+  border-radius: 50%;
+  flex-grow: 1;
+}
+
+.Piece-1 {
+  background: #F0595C;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.Piece-2 {
+  background: #4AC2BF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+@keyframes Piece-keyframes-grow-in {
+  0% {
+    border: 2px solid #fff;
+    margin: -4px;
+  }
+  100% {
+    border: none;
+    margin: 0;
+  }
+}
+
+.Piece-latest {
+  animation-name: Piece-keyframes-grow-in;
+  animation-duration: 1.0s;
+}

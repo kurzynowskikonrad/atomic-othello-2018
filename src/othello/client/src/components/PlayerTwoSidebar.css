@@ -1,0 +1,13 @@
+.PlayerTwoSidebar {
+  text-align: right;
+  padding: 0 40px 0 40px;
+  align-items: flex-start;
+}
+
+.PlayerTwoSidebar .connected {
+  color: #4AC2BF;
+}
+
+.PlayerTwoSidebar .Spinner > div {
+  background-color: #4AC2BF;
+}
